@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styled, { keyframes } from 'styled-components'
 import PropTypes from 'prop-types';
 
@@ -34,15 +34,11 @@ const Item = styled.li`
     justify-content: space-between;
     align-items: center;
     animation: ${appear} 1s ease;
-    cursor: pointer;
 `
 const Text = styled.span`
     position: relative;
     font-family: 'Caveat', cursive;
     font-size: 24px;
-    text-decoration: ${ props => props.isCompleted ? 'line-through' : 'none'};
-    color: ${ props => props.isCompleted ? '#72cc93' : '#343a48'};
-    transition: color 0.3s ease-out;
 `
 const DelButton = styled.button`
     font-size: 18px;
@@ -61,12 +57,11 @@ const DelButton = styled.button`
 `
 
 const RemovableListItem = (props) => {
-    const [isCompleted, setIsCompleted] = useState(false);
     const {id, text, removeItem}  = props;
 
     return(
-        <Item onClick={() => setIsCompleted(!isCompleted)}>
-            <Text isCompleted={isCompleted} >{text}</Text>
+        <Item>
+            <Text>{text}</Text>
             { (removeItem && id) && 
                 <DelButton onClick={() => removeItem(id)}>X</DelButton>
                 }      
