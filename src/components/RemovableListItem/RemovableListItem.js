@@ -1,20 +1,7 @@
 import React from 'react';
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
 import PropTypes from 'prop-types';
 
-const appear = keyframes`
-    0% {
-    opacity: 0;
-    transform: translateY(-5px);
-    }
-    50% {
-    opacity: 0.2;
-    transform: translateY(0);
-    }
-    100% {
-        opacity: 1;
-    }
-`
 
 const Item = styled.li`
     border-bottom: 1px #d1d1d1 solid;
@@ -33,7 +20,6 @@ const Item = styled.li`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    animation: ${appear} 1s ease;
 `
 const Text = styled.span`
     position: relative;

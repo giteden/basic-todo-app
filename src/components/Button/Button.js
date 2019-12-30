@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Button = styled.button`
@@ -20,4 +21,11 @@ const Button = styled.button`
         outline: none;
     } 
 `
+
+Button.propTypes = {
+    disabled: PropTypes.bool
+}
+
+
 export default Button;
+

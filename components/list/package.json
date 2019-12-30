@@ -1,0 +1,19 @@
+{
+  "name": "@bit/bit.react-demo-app.list",
+  "version": "1.0.0",
+  "homepage": "https://bit.dev/bit/react-demo-app/list",
+  "main": "dist/List/index.js",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "@bit/bit.react-demo-app.removable-list-item": "file:../removable-list-item"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.5"
+    }
+  }
+}

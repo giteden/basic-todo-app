@@ -4,8 +4,7 @@ import PropTypes from 'prop-types';
 
 
 const List = (props) => {
-    const items = props.items;
-    const removeItem = props.removeItem;
+    const {items, removeItem} = props;
 
     return (
         <ul style={{paddingLeft: 0}}>

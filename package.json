@@ -11,7 +11,12 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
     "react-transition-group": "1.x",
-    "styled-components": "^4.4.1"
+    "styled-components": "^4.4.1",
+    "@bit/bit.react-demo-app.button": "file:./components/button",
+    "@bit/bit.react-demo-app.list": "file:./components/list",
+    "@bit/bit.react-demo-app.removable-list-item": "file:./components/removable-list-item",
+    "@bit/bit.react-demo-app.text-input": "file:./components/text-input",
+    "@bit/bit.react-demo-app.h1": "file:./components/h1"
   },
   "scripts": {
     "start": "react-scripts start",

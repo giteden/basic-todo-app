@@ -1,0 +1,19 @@
+{
+  "name": "@bit/bit.react-demo-app.removable-list-item",
+  "version": "1.0.1",
+  "homepage": "https://bit.dev/bit/react-demo-app/removable-list-item",
+  "main": "dist/index.js",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.5"
+    }
+  }
+}
