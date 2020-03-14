@@ -868,6 +868,35 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@bit/bit.react-demo-app.button@file:./components/button":
+  version "1.0.0"
+  dependencies:
+    styled-components "^4.4.1"
+
+"@bit/bit.react-demo-app.h1@file:./components/h1":
+  version "1.0.0"
+  dependencies:
+    styled-components "^4.4.1"
+
+"@bit/bit.react-demo-app.list@file:./components/list":
+  version "1.0.0"
+  dependencies:
+    "@bit/bit.react-demo-app.removable-list-item" "file:components/removable-list-item"
+    prop-types "^15.7.2"
+    react "^16.12.0"
+
+"@bit/bit.react-demo-app.removable-list-item@file:./components/removable-list-item", "@bit/bit.react-demo-app.removable-list-item@file:components/removable-list-item":
+  version "1.0.1"
+  dependencies:
+    prop-types "^15.7.2"
+    react "^16.12.0"
+    styled-components "^4.4.1"
+
+"@bit/bit.react-demo-app.text-input@file:./components/text-input":
+  version "1.0.0"
+  dependencies:
+    styled-components "^4.4.1"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.3.tgz#099139eaec7ebf07a27c1786a3ff64f39464d2ef"
@@ -1630,9 +1659,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.4, acorn@^6.2.1:
   version "6.4.0"
