@@ -868,6 +868,35 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@bit/bit.react-demo-app.button@file:./components/button":
+  version "1.0.0"
+  dependencies:
+    styled-components "^4.4.1"
+
+"@bit/bit.react-demo-app.h1@file:./components/h1":
+  version "1.0.0"
+  dependencies:
+    styled-components "^4.4.1"
+
+"@bit/bit.react-demo-app.list@file:./components/list":
+  version "1.0.0"
+  dependencies:
+    "@bit/bit.react-demo-app.removable-list-item" "file:components/removable-list-item"
+    prop-types "^15.7.2"
+    react "^16.12.0"
+
+"@bit/bit.react-demo-app.removable-list-item@file:./components/removable-list-item", "@bit/bit.react-demo-app.removable-list-item@file:components/removable-list-item":
+  version "1.0.1"
+  dependencies:
+    prop-types "^15.7.2"
+    react "^16.12.0"
+    styled-components "^4.4.1"
+
+"@bit/bit.react-demo-app.text-input@file:./components/text-input":
+  version "1.0.0"
+  dependencies:
+    styled-components "^4.4.1"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.3.tgz#099139eaec7ebf07a27c1786a3ff64f39464d2ef"
@@ -10375,9 +10404,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   version "1.0.5"
