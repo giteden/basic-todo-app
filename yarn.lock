@@ -868,6 +868,35 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@bit/bit.react-demo-app.button@file:./components/button":
+  version "1.0.0"
+  dependencies:
+    styled-components "^4.4.1"
+
+"@bit/bit.react-demo-app.h1@file:./components/h1":
+  version "1.0.0"
+  dependencies:
+    styled-components "^4.4.1"
+
+"@bit/bit.react-demo-app.list@file:./components/list":
+  version "1.0.0"
+  dependencies:
+    "@bit/bit.react-demo-app.removable-list-item" "file:components/removable-list-item"
+    prop-types "^15.7.2"
+    react "^16.12.0"
+
+"@bit/bit.react-demo-app.removable-list-item@file:./components/removable-list-item", "@bit/bit.react-demo-app.removable-list-item@file:components/removable-list-item":
+  version "1.0.1"
+  dependencies:
+    prop-types "^15.7.2"
+    react "^16.12.0"
+    styled-components "^4.4.1"
+
+"@bit/bit.react-demo-app.text-input@file:./components/text-input":
+  version "1.0.0"
+  dependencies:
+    styled-components "^4.4.1"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.3.tgz#099139eaec7ebf07a27c1786a3ff64f39464d2ef"
@@ -7339,9 +7368,9 @@ path-key@^2.0.0, path-key@^2.0.1:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@0.1.7:
   version "0.1.7"
