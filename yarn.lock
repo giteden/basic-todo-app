@@ -868,6 +868,35 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@bit/bit.react-demo-app.button@file:./components/button":
+  version "1.0.0"
+  dependencies:
+    styled-components "^4.4.1"
+
+"@bit/bit.react-demo-app.h1@file:./components/h1":
+  version "1.0.0"
+  dependencies:
+    styled-components "^4.4.1"
+
+"@bit/bit.react-demo-app.list@file:./components/list":
+  version "1.0.0"
+  dependencies:
+    "@bit/bit.react-demo-app.removable-list-item" "file:components/removable-list-item"
+    prop-types "^15.7.2"
+    react "^16.12.0"
+
+"@bit/bit.react-demo-app.removable-list-item@file:./components/removable-list-item", "@bit/bit.react-demo-app.removable-list-item@file:components/removable-list-item":
+  version "1.0.1"
+  dependencies:
+    prop-types "^15.7.2"
+    react "^16.12.0"
+    styled-components "^4.4.1"
+
+"@bit/bit.react-demo-app.text-input@file:./components/text-input":
+  version "1.0.0"
+  dependencies:
+    styled-components "^4.4.1"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.3.tgz#099139eaec7ebf07a27c1786a3ff64f39464d2ef"
@@ -1915,9 +1944,9 @@ async-limiter@~1.0.0:
   integrity sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
 
 async@^2.6.2:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/async/-/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
-  integrity sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg==
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/async/-/async-2.6.4.tgz#706b7ff6084664cd7eae713f6f965433b5504221"
+  integrity sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==
   dependencies:
     lodash "^4.17.14"
 
@@ -6250,9 +6279,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 "lodash@>=3.5 <5", lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.5:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 loglevel@^1.6.4:
   version "1.6.6"
