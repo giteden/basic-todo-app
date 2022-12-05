@@ -868,6 +868,35 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@bit/bit.react-demo-app.button@file:./components/button":
+  version "1.0.0"
+  dependencies:
+    styled-components "^4.4.1"
+
+"@bit/bit.react-demo-app.h1@file:./components/h1":
+  version "1.0.0"
+  dependencies:
+    styled-components "^4.4.1"
+
+"@bit/bit.react-demo-app.list@file:./components/list":
+  version "1.0.0"
+  dependencies:
+    "@bit/bit.react-demo-app.removable-list-item" "file:components/removable-list-item"
+    prop-types "^15.7.2"
+    react "^16.12.0"
+
+"@bit/bit.react-demo-app.removable-list-item@file:./components/removable-list-item", "@bit/bit.react-demo-app.removable-list-item@file:components/removable-list-item":
+  version "1.0.1"
+  dependencies:
+    prop-types "^15.7.2"
+    react "^16.12.0"
+    styled-components "^4.4.1"
+
+"@bit/bit.react-demo-app.text-input@file:./components/text-input":
+  version "1.0.0"
+  dependencies:
+    styled-components "^4.4.1"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.3.tgz#099139eaec7ebf07a27c1786a3ff64f39464d2ef"
@@ -3305,9 +3334,9 @@ decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1:
   version "1.1.1"
